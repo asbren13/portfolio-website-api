@@ -5,6 +5,6 @@ class EmailController < ActionController::API
 
   private
   def email_params
-    params.permit(:sender, :body)
+    params.permit(:sender, :body, :name)
   end
 end
