@@ -7,7 +7,7 @@ class PortfolioMailer < ActionMailer::Base
     @sender = data['sender']
     @body = data['body']
     mail(subject: 'Correspondence from Portfolio Site',
-         to: "abrennanportfoliosite@gmail.com",
+         to: "asbren13@gmail.com",
          from: "abrennanportfoliosite@gmail.com",
          template_path: 'portfolio_mailer')
   end
